@@ -7,7 +7,9 @@ Appreciation is given as follows:
 (i) 'Excellent' if all three conditions are met 
 (ii)'Very Good' if conditions (i) and (ii) are met 
 (iii)'Good' if conditions (i) and (iii) are met 
-Given the Number of 'S' grades, Attendance and Participation in sports activity in a semester, write the python code to output the appreciation for the student. Check boundary conditions and print 'Invalid input' for wrong input.
+Given the Number of 'S' grades, Attendance and Participation in sports activity 
+in a semester, write the python code to output the appreciation for the student. 
+Check boundary conditions and print 'Invalid input' for wrong input.
 
 '''
 
