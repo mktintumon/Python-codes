@@ -16,7 +16,7 @@ Print the Total score in the sorted (Descending) order.
 You have to use any sorting method for sorting.
 '''
 
-# Taking college inputs
+# Taking college inputs for 5 colleges
 def read_scores():
     facilities = int(input("Enter the score for facilities (out of 25): "))
     academics = int(input("Enter the score for academics (out of 50): "))
@@ -25,7 +25,7 @@ def read_scores():
 
 # Creating list of lists
 score_lists = []
-for i in range(10):
+for i in range(5):
     print("Enter scores for College" , i+1 , ": ")
     scores = read_scores()
     score_lists.append(scores)

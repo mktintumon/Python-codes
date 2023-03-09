@@ -17,7 +17,10 @@ d1 = int(input("Enter the number of days after which progress was checked: "))
 t1 = int(input("Enter the number of toys made after d1 days: "))
 
 ''' 
-LOGIC
+ALGORITHM LOGIC (Time and work)
+--> Ratio of n people works for d1 days and produces t1 toys will be 
+    equal to the n+x people works for d-d1 days and produces t-t1 toys
+    
 eq_1 = (n*d1) / t1
 eq_2 = (n+x)*(d-d1) / (t-t1)
 
