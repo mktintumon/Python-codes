@@ -41,7 +41,7 @@ def num_pebbles(m1, m2, x, y, n):
 
     
     total_pebbles += small_count
-    rem_diff = diff - small_count * x
+    rem_diff = diff - (small_count * x)
 
     big_count = rem_diff // y
 

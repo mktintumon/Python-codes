@@ -15,11 +15,11 @@ import math
 length = float(input("Enter the length of the farm : "))
 breadth = float(input("Enter the breadth of the farm : "))
 
-rows = math.ceil(length / 2)
-columns = math.ceil(breadth / 2) + 1
+rows = math.floor(length / 2) + 1
+columns = math.floor(breadth / 2) + 1
 
 total_trees = rows * columns
 
-print("Number of rows :", rows)
-print("Number of columns :", columns)
+print("Number of rows :", columns)
+print("Number of columns :", rows)
 print("Total number of trees : ", total_trees)
