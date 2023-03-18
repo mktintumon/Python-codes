@@ -22,4 +22,4 @@ total_non_defected = non_defect_bolt + non_defect_nuts
 percent_non_defected = (total_non_defected / total) * 100
 
 # format function
-print(format(percent_non_defected , ".2f"))
+print("Percentage of non-defective " , format(percent_non_defected , ".2f"))

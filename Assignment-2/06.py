@@ -45,13 +45,13 @@ def farthest_points(coordinates):
                 far_coord1 = coord1
                 far_coord2 = coord2
                 
-    return far_coord1, far_coord2
+    return far_coord1, far_coord2 , max_dist
 
 # given coordinates
-coordinates = [(1,2), (3,4), (-1,5), (6,-2)]
+coordinates = [(-1,3), (4,4), (6,1), (6,3)]
 
-far_coord1, far_coord2 = farthest_points(coordinates)
+far_coord1, far_coord2 , dist = farthest_points(coordinates)
 
 print("Given coordinates -> " , coordinates)
-print(f"The farthest points are {far_coord1} and {far_coord2}")
+print(f"The farthest points are {far_coord1} and {far_coord2} with distance {dist}")
 
